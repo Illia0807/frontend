@@ -23,7 +23,7 @@ const BookPage = () => {
   const [selectedDate, setSelectedDate] = useState<string>(new Date().toISOString().split("T")[0]);
 
   // Getting cleaners data and loading status from Redux store
-  const { data, status } = useAppSelector((state) => state.clinners);
+  const { status } = useAppSelector((state) => state.clinners);
 
   // Fetch cleaners when component mounts or selectedType changes
   useEffect(() => {
@@ -45,6 +45,7 @@ const BookPage = () => {
         <div className={style.controls}>
           <h3 className={style.h3}>Book now!</h3>
           <select
+          name="select"
             value={selectedType}
             onChange={handleTypeChange}
             className={style.select}
