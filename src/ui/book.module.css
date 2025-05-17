@@ -1,0 +1,161 @@
+.pageBook {
+  display: flex;
+  height: 80vh;
+  padding: 5% 12%;
+  gap: 60px;
+  background-color: #6882ef;
+}
+
+.calendarWrapper {
+  border-radius: 12px;
+  width: 45%;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(243, 243, 243, 0.7);
+  overflow-y: auto;
+  
+}
+
+.bookWindowWrapper {
+ 
+  background: white;
+  width: 55%;
+  border-radius: 12px;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.title {
+  margin-bottom: 20px;
+  color: #6882ef;
+  font-family: "Raleway", sans-serif;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+ 
+}
+
+.card {
+  display: flex;
+  
+  gap: 10px;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  font: normal 14px/16px "Raleway", sans-serif;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #6882ef;
+}
+
+.info {
+  flex: 1;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #6882ef;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #4d64cc;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005fa3;
+}
+
+.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.selected {
+  background-color: #dbeafe; /* светло-голубой фон */
+  border: 2px solid #6882ef;
+}
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 300px;
+  height: 50px;
+  border: 3px solid #f9d859;
+  background-color: transparent;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  line-height: 21px;
+  color: #f9d859;
+  padding-left: 10px; /* чтобы текст не прилипал */
+ 
+
+}
+.h3{
+  font: normal bold 40px/57px "Raleway",sans-serif;
+  color: #ffffff;
+  
+}
+
+.h4{
+  color: #ffffff;
+  font: normal  14px/21px "Raleway",sans-serif;
+}
+
+.calendar{
+  background-color: #ffffff;
+  font: normal 16px/19px "Raleway",sans-serif;
+  color: #593d3d;
+  border-radius: 15px;
+  border:  none;
+  overflow: hidden;
+  
+ 
+}
+
+.p{
+  font: normal 16px/19px "Raleway",sans-serif;
+  color: #593d3d;
+}
+
+.btn{
+  background-color: #dbeafe;
+  height:20px;
+  width: 20%;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+}
+.btn a{
+  font: bold 18px/21px "Raleway", sans-serif;
+  color: #593d3d;
+  text-decoration: none;
+}

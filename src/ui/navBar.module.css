@@ -1,0 +1,27 @@
+.navHome ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+  background-color: #f4f5f7;
+}
+
+.navHome ul li {
+  font: bold 18px/21px "Raleway", sans-serif;
+  color: #593d3d;
+}
+
+.navHome ul li:first-child {
+  margin-right: auto;
+}
+
+.navHome ul li:not(:first-child) {
+  margin-left: 20px;
+}
+.navHome ul li a {
+  font: bold 18px/21px "Raleway", sans-serif;
+  color: #593d3d;
+  text-decoration: none;
+}

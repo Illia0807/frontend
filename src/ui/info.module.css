@@ -1,0 +1,91 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.page > ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  list-style: none;
+  margin: 0;
+  left: 0;
+  top: 0;
+  height: 100px;
+  color: #f4f5f7;
+  font: 24px/29px "Raleway", sans-serif;
+  background-color: #6882ef;
+  border-bottom: 10px solid #ffd836;
+  cursor: pointer;
+}
+
+.page .active {
+  color: #ffd836;
+}
+
+.page .content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.page .content > img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.page .text {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.page .text > section {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font: italic 16px/21px "Raleway", sans-serif;
+  color: #6882ef;
+}
+
+.page .text > p {
+  line-height: 1.6;
+  font: normal 14px/21px "Raleway", sans-serif;
+  color: #593d3d;
+}
+.page h1 {
+  font: bold 49px/57px "Raleway", sans-serif;
+  color: #6882ef;
+}
+
+.page .btn  {
+  background-color: #6781ef;
+  cursor: pointer;
+  height: 60px;
+  width: 250px;
+  border-radius: 30px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex; /* Включаем Flexbox */
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: center; /* Выравнивание по горизонтали */
+  font: normal 24px/29px "Raleway", sans-serif; /* Можно добавить для текста */
+  
+}
+
+.page .btn a{
+  color: #ffff;
+  text-decoration: none;
+
+}

@@ -1,0 +1,59 @@
+.pageHome {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pageHome section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../assets/fon.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #f4f5f7;
+}
+
+.pageHome section > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #593d3d;
+  padding: 0;
+  margin: 0;
+  font: 14px/21px "Raleway", sans-serif;
+  max-width: 30%;
+  height: 100%;
+}
+
+.pageHome section > div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  height: 100%;
+}
+
+.pageHome section > div:last-child > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pageHome h2 {
+  color: #ffd836;
+  padding: 0;
+  margin: 0;
+  font: bold 49px/57px "Raleway", sans-serif;
+}
+
+.pageHome h1 {
+  color: #6882ef;
+  padding: 0;
+  margin: 0;
+  font: bold 49px/57px "Raleway", sans-serif;
+}
