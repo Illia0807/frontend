@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+const apiUrl = import.meta.env.VITE_API_URL;
 
 // Interface describing the structure of a single clinner
 interface Clinner {
@@ -22,7 +23,7 @@ export const fetchClinnersByType = createAsyncThunk<
    async (type, { rejectWithValue }) => {
     try {
       const response = await axios.get(
-        `https://backend-ob1m.onrender.com/clinners/by-type`,
+        `${apiUrl}/clinners/by-type`,
         { params: { type } }
       );
       return response.data as Clinner[];
