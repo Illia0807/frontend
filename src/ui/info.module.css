@@ -1,3 +1,4 @@
+/* Page container with vertical layout and light background */
 .page {
   display: flex;
   flex-direction: column;
@@ -5,6 +6,7 @@
   background-color: #f0f8ff;
 }
 
+/* Navigation bar with evenly spaced menu items and styling */
 .page > ul {
   display: flex;
   justify-content: space-between;
@@ -23,10 +25,12 @@
   cursor: pointer;
 }
 
+/* Highlight active tab */
 .page .active {
   color: #ffd836;
 }
 
+/* Flex container for image and text side-by-side */
 .page .content {
   display: flex;
   flex-direction: row;
@@ -37,6 +41,8 @@
   gap: 5%;
 }
 
+
+/* Responsive image container */
 .page .content > img {
   max-width: 400px;
   width: 100%;
@@ -44,6 +50,7 @@
   object-fit: contain;
 }
 
+/* Vertical text block with spacing */
 .page .text {
   width: 35%;
   display: flex;
@@ -51,6 +58,8 @@
   gap: 20px;
 }
 
+
+/* Icon-text rows for info highlights */
 .page .text > section {
   display: flex;
   align-items: flex-start;
@@ -59,16 +68,20 @@
   color: #6882ef;
 }
 
+/* Paragraph text styling */
 .page .text > p {
   line-height: 1.6;
   font: normal 14px/21px "Raleway", sans-serif;
   color: #593d3d;
 }
+
+/* Main heading */
 .page h1 {
   font: bold 49px/57px "Raleway", sans-serif;
   color: #6882ef;
 }
 
+/* Centered, rounded call-to-action button */
 .page .btn  {
   background-color: #6781ef;
   cursor: pointer;
@@ -84,6 +97,7 @@
   
 }
 
+/* Link inside the button */
 .page .btn a{
   color: #ffff;
   text-decoration: none;

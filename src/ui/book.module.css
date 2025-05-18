@@ -1,3 +1,4 @@
+/* Wrapper for the entire booking page: sets layout, padding, background */
 .pageBook {
   display: flex;
   height: 80vh;
@@ -6,6 +7,7 @@
   background-color: #6882ef;
 }
 
+/* Styles for the calendar container with rounded corners and box shadow */
 .calendarWrapper {
   border-radius: 12px;
   width: 45%;
@@ -15,6 +17,7 @@
   
 }
 
+/* Wrapper for the booking details section with white background and shadow */
 .bookWindowWrapper {
  
   background: white;
@@ -24,12 +27,17 @@
   overflow-y: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+/* Main title styling */
 .title {
   margin-bottom: 20px;
   color: #6882ef;
   font-family: "Raleway", sans-serif;
 }
 
+
+/* List container for cleaner cards */
 .list {
   display: flex;
   flex-direction: column;
@@ -38,6 +46,7 @@
  
 }
 
+/* Card representing a single cleaner */
 .card {
   display: flex;
   
@@ -50,6 +59,7 @@
   font: normal 14px/16px "Raleway", sans-serif;
 }
 
+/* Avatar image of a cleaner */
 .avatar {
   width: 100px;
   height: 100px;
@@ -58,10 +68,12 @@
   border: 2px solid #6882ef;
 }
 
+/* Info section inside a card */
 .info {
   flex: 1;
 }
 
+/* Primary button styling */
 .button {
   margin-top: 10px;
   background-color: #6882ef;
@@ -89,6 +101,7 @@
   transition: 0.3s ease;
 }
 
+/* Hover effect for buttons */
 .button:hover {
   background-color: #005fa3;
 }
@@ -98,10 +111,15 @@
   cursor: not-allowed;
   pointer-events: none;
 }
+
+/* Selected state for cleaner/date card */
 .selected {
   background-color: #dbeafe; /* светло-голубой фон */
   border: 2px solid #6882ef;
 }
+
+
+/* Custom styled <select> dropdown */
 .select {
   appearance: none;
   -webkit-appearance: none;
@@ -119,17 +137,21 @@
  
 
 }
+
+/* Subtitle (used for large headings) */
 .h3{
   font: normal bold 40px/57px "Raleway",sans-serif;
   color: #ffffff;
   
 }
 
+/* Smaller subtitle styling */
 .h4{
   color: #ffffff;
   font: normal  14px/21px "Raleway",sans-serif;
 }
 
+/* Styling the embedded calendar */
 .calendar{
   background-color: #ffffff;
   font: normal 16px/19px "Raleway",sans-serif;
@@ -141,11 +163,14 @@
  
 }
 
+/* Paragraph text styling */
 .p{
   font: normal 16px/19px "Raleway",sans-serif;
   color: #593d3d;
 }
 
+
+/* Small decorative button */
 .btn{
   background-color: #dbeafe;
   height:20px;
@@ -154,6 +179,8 @@
   text-align: center;
   padding: 5px;
 }
+
+/* Text inside the small button link */
 .btn a{
   font: bold 18px/21px "Raleway", sans-serif;
   color: #593d3d;

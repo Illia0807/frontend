@@ -1,3 +1,4 @@
+/* Top nav bar: horizontal layout, spaced items, and neutral background */
 .navHome ul {
   display: flex;
   align-items: center;
@@ -8,18 +9,24 @@
   background-color: #f4f5f7;
 }
 
+/* Base nav item style */
 .navHome ul li {
   font: bold 18px/21px "Raleway", sans-serif;
   color: #593d3d;
 }
 
+/* Align the first item (e.g., logo or home) to the far left */
 .navHome ul li:first-child {
   margin-right: auto;
 }
 
+
+/* Space between nav items (except the first one) */
 .navHome ul li:not(:first-child) {
   margin-left: 20px;
 }
+
+/* Style links inside nav items */
 .navHome ul li a {
   font: bold 18px/21px "Raleway", sans-serif;
   color: #593d3d;
