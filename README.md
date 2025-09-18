@@ -6,6 +6,17 @@ Choose a service and a cleaner
 Book a date and time
 Enjoy a simple and fast UX
 
+---
+
+### ⚙️ Full-Stack Architecture
+
+This is the frontend for a full-stack application. The backend is a separate REST API server built with Node.js, Express, and PostgreSQL.
+
+➡️ **You can find the backend repository here: [Link to Backend Repository](https://github.com/Illia0807/backend)**
+
+---
+
+
 🚀 Tech Stack Used
 React.js + Vite
 TypeScript
